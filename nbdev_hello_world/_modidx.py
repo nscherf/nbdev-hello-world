@@ -5,4 +5,7 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://nscherf.github.io',
                 'git_url': 'https://github.com/nscherf/nbdev-hello-world',
                 'lib_path': 'nbdev_hello_world'},
-  'syms': {'nbdev_hello_world.core': {'nbdev_hello_world.core.foo': ('core.html#foo', 'nbdev_hello_world/core.py')}}}
+  'syms': { 'nbdev_hello_world.core': {'nbdev_hello_world.core.foo': ('core.html#foo', 'nbdev_hello_world/core.py')},
+            'nbdev_hello_world.my_module': { 'nbdev_hello_world.my_module.foo': ('core.html#foo', 'nbdev_hello_world/my_module.py'),
+                                             'nbdev_hello_world.my_module.say_hello': ( 'core.html#say_hello',
+                                                                                        'nbdev_hello_world/my_module.py')}}}
