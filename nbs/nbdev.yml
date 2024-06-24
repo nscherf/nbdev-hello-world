@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbdev-hello-world"
+  site-url: "https://nscherf.github.io/nbdev-hello-world"
+  description: "Demonstrates how to set up nbdev for literate, exploratory programming."
+  repo-branch: main
+  repo-url: "https://github.com/nscherf/nbdev-hello-world"
